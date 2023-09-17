@@ -1,5 +1,5 @@
 public static void stripComments(Scanner input) {
-    boolean inComment = false;
+    // boolean inComment = false;
     while (input.hasNextLine()) {
         String line = input.nextLine();
         if(!line.startsWith("/*")){
